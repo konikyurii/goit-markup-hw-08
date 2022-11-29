@@ -1,0 +1,13 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color);
+    background-color: var(--third-color);
+    letter-spacing: 0.03em;
+}
+
+section{
+    padding: 60px 0;
+    @media (min-width: 1200px) {
+        padding: 94px 0; 
+    }
+}
